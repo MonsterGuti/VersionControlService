@@ -1,0 +1,1 @@
+VALID_ROLES = ["author", "reviewer", "reader", 'admin']

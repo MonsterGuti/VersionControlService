@@ -3,7 +3,7 @@ import json
 import argparse
 import time
 from pathlib import Path
-from main import Repository
+from repository import Repository
 
 HOST = "192.168.56.1"
 PORT = 5000

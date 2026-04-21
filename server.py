@@ -3,7 +3,10 @@ import json
 import threading
 import uuid
 
-from main import Repository, Database, AuthService, DocumentService
+from repository import Repository
+from database import Database
+from auth import AuthService
+from documents import DocumentService
 
 HOST = "192.168.56.1"
 PORT = 5000
